@@ -70,11 +70,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 10px solid #00001a;
   transition: all .5s;
+  transform: rotate(1800deg)
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -101,7 +102,23 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff99ff;
 }
+
+.cards {
+  margin: auto;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #009ab6;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
  
+  color: white;
+  transition: all .5s;
+}
+.cards:hover {
+  border-color: #ff99ff;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -169,21 +186,7 @@ a.social:hover {
 }
 
 
-.cards {
-  margin: auto;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: center;
-  background: #009ab6;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  padding-bottom: 25px;
-  color: white;
-  transition: all .5s;
-}
-.cards:hover {
-  border-color: #ff99ff;
-}
+
  
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
